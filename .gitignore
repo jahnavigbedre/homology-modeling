@@ -1,0 +1,39 @@
+# Results and intermediate files
+results/*
+!results/figures/.gitkeep
+
+# Data files
+data/templates/*
+!data/templates/README.md
+*.pdb
+*.ali
+*.fasta
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Homology modeling scripts
+homology-modeling/
+├── data/
+│   └── templates/
+│       └── README.md           # Explain template requirements
+├── results/
+│   └── figures/
+│       └── .gitkeep           # Empty file to track empty folder
+├── scripts/
+│   ├── align_sequences.py
+│   ├── modeller_build.py
+│   ├── evaluate_model.py
+│   └── analyze_results.py
+├── .gitignore
+├── README.md
+└── requirements.txt
