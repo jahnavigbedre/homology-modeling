@@ -1,5 +1,12 @@
-# Results and intermediate files
-results/*
+# Virtual Environment
+venv/
+.env
+ENV/
+env/
+.venv/
+
+# Results and output files
+results/
 !results/figures/.gitkeep
 
 # Data files
@@ -14,8 +21,6 @@ data/templates/*
 __pycache__/
 *.py[cod]
 *$py.class
-.env
-venv/
 
 # IDE
 .vscode/

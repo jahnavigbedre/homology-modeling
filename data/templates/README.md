@@ -15,7 +15,6 @@ The project directory is organized as follows:
 homology-modeling/
 ├── data/
 │   └── templates/
-│       └── README.md
 ├── results/
 │   └── figures/
 │       └── .gitkeep
@@ -25,6 +24,5 @@ homology-modeling/
 │   ├── evaluate_model.py
 │   └── analyze_results.py
 ├── .gitignore
-├── README.md
 └── requirements.txt
 ```
