@@ -24,3 +24,13 @@ __pycache__/
 *.ali
 *.fasta
 *.log
+
+# Homology Modeling
+homology-modeling/
+├── data/
+├── results/
+│   └── figures/
+│       └── .gitkeep
+├── scripts/
+├── .gitignore
+└── requirements.txt
