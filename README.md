@@ -18,7 +18,7 @@
 
 ```bash
 # Clone with depth 1 to get only the latest version
-git clone --depth 1 https://github.com/yourusername/homology-modeling.git
+git clone --depth 1 https://github.com/jahnavigbedre/homology-modeling.git
 
 # Create and activate conda environment
 conda create -n homology python=3.8
@@ -107,7 +107,7 @@ If you use this software in your research, please cite:
   author = {Your Name},
   title = {Protein Homology Modeling Pipeline},
   year = {2024},
-  url = {https://github.com/yourusername/homology-modeling}
+  url = {https://github.com/jahnavigbedre/homology-modeling}
 }
 ```
 
