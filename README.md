@@ -4,15 +4,26 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 
-> Advanced computational framework for protein structure prediction through template-based modeling
+> Advanced computational framework for **protein structure prediction** through **template-based homology modeling**.
+
+---
+
+## 📖 Description
+
+This project provides tools and algorithms for predicting protein structures using **homology modeling techniques**, which leverage known protein structures as templates to model unknown protein structures with similar sequences.  
+The pipeline integrates **smart template selection, multi-stage refinement, validation, and GPU acceleration** to deliver accurate and efficient structure predictions.
+
+---
 
 ## 🎯 Key Features
 
-- **Smart Template Selection** - Automated detection of optimal structural templates
-- **Multi-stage Refinement** - Progressive model optimization using physics-based force fields
-- **Validation Suite** - Comprehensive model quality assessment tools
-- **GPU Acceleration** - CUDA-enabled computations for faster processing
-- **RESTful API** - Web service integration capabilities
+- **Smart Template Selection** – Automated detection of optimal structural templates  
+- **Multi-stage Refinement** – Progressive model optimization using physics-based force fields  
+- **Validation Suite** – Comprehensive model quality assessment tools  
+- **GPU Acceleration** – CUDA-enabled computations for faster processing  
+- **RESTful API** – Web service integration capabilities  
+
+---
 
 ## 🚀 Quick Start
 
@@ -26,7 +37,9 @@ conda activate homology
 
 # Install with all dependencies
 pip install -e ".[all]"
-```
+````
+
+---
 
 ## 💻 Basic Usage
 
@@ -50,13 +63,17 @@ model.save('final_model.pdb')
 model.export_validation_report()
 ```
 
+---
+
 ## 📊 Performance Metrics
 
-| Feature | Performance |
-|---------|------------|
-| Avg. RMSD | < 2.5Å |
-| TM-Score | > 0.8 |
+| Feature         | Performance  |
+| --------------- | ------------ |
+| Avg. RMSD       | < 2.5Å       |
+| TM-Score        | > 0.8        |
 | Processing Time | ~30min/model |
+
+---
 
 ## 🛠️ Advanced Configuration
 
@@ -76,6 +93,8 @@ hardware:
   num_threads: 8
 ```
 
+---
+
 ## 📌 Project Structure
 
 ```
@@ -87,16 +106,20 @@ homology-modeling/
 │   └── utils/         # Helper functions
 ├── tests/             # Unit and integration tests
 ├── examples/          # Usage examples and notebooks
-└── docs/             # Detailed documentation
+└── docs/              # Detailed documentation
 ```
+
+---
 
 ## 🔬 Validation Methods
 
-- Ramachandran plot analysis
-- DOPE score evaluation
-- Structure quality checks (PROCHECK)
-- Template alignment coverage
-- Energy profile analysis
+* Ramachandran plot analysis
+* DOPE score evaluation
+* Structure quality checks (PROCHECK)
+* Template alignment coverage
+* Energy profile analysis
+
+---
 
 ## 📚 Citation
 
@@ -111,21 +134,20 @@ If you use this software in your research, please cite:
 }
 ```
 
+---
+
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 🌟 Acknowledgments
 
-- BioPython community
-- PyMOL visualization library
-- OpenMM force fields
-- CUDA development team
-
-## 📮 Contact
-
-- Create an issue for bug reports
-- Star the repo if you find it useful
-- Fork for your own modifications
+* **BioPython** community
+* **PyMOL** visualization library
+* **OpenMM** force fields
+* **CUDA** development team
 
 ---
+
